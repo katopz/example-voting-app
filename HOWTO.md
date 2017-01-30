@@ -1,5 +1,6 @@
 Ref : https://docs.docker.com/engine/getstarted-voting-app/deploy-app/
 
+```shell
 # Create manager.
 docker-machine create --driver virtualbox manager
 
@@ -17,3 +18,4 @@ docker-machine ssh manager
 
 # Run
 docker stack deploy --compose-file docker-stack.yml vote
+```
