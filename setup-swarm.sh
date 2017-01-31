@@ -34,5 +34,5 @@ open http://$(docker-machine ip manager):5000
 open http://$(docker-machine ip manager):5001
 open http://$(docker-machine ip manager):8080
 
-# To cleanup
+# See how long does it take.
 echo "Done in $(($(date +'%s') - $START_SEC)) seconds"
